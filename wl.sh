@@ -4,9 +4,6 @@ apt install linux-image-4.13.0-kali1-amd64 linux-image-amd64
 apt install linux-headers-4.13.0-kali1-common linux-headers-4.13.0-kali1-all-amd64 linux-headers-4.13.0-kali1-amd64 linux-headers-amd64
 apt install broadcom-sta-dkms dkms
 apt install kali-linux-wireless
-modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
-modprobe -v wl
-
 
 # Installs the broadcom-wl kernel module with DKMS
 # Tested under Fedora 23, will likely work with other versions/distros
