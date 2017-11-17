@@ -19,9 +19,8 @@ cd /tmp/broadcom
 # Download some support files from the Arch package manually ~/Downloads
 # https://aur.archlinux.org/cgit/aur.git/snapshot/broadcom-wl-dkms.tar.gz
 
-"${base%/}/${rel}"
-cp "${dirname $0%}/${wl/broadcom-wl-dkms.tar.gz}" /tmp/broadcom/
-cp "${dirname $0%}/${wl/hybrid-v35_64-nodebug-pcoem-6_30_223_271.tar.gz}" /tmp/broadcom/broadcom.tar.gz
+cp /root/kali/wl/broadcom-wl-dkms.tar.gz /tmp/broadcom/
+cp /root/kali/wl/hybrid-v35_64-nodebug-pcoem-6_30_223_271.tar.gz /tmp/broadcom/broadcom.tar.gz
 
 
 # Untar the archives
